@@ -1,7 +1,7 @@
 # tc O(n), sc O(n).
 from collections import deque
 queue = deque([root])
-px = py = None
+px = py = False
 
 while queue:
     for _ in range(len(queue)):
